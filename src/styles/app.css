@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.app{
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    
+}
+
+.back-img{
+    background: url(../assets/back1.png);
+    width: 100vw;
+    height: 908px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    z-index: -1;
+    margin-top: -35px ;
+}
+
+

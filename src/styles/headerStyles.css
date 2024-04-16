@@ -1,0 +1,56 @@
+.header, .header nav{
+    display: flex;
+}
+.header a, .header span{
+    color: #F4F4F4;
+}
+.header{
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    align-self: center;
+    margin-top: 35px;
+}
+.header nav{
+    font-size: 19px;
+}
+.header-logo{
+    margin-right: 74px;
+}
+.header_services, .header nav a{
+    margin-right: 1.6667vw;
+}
+.header_services img{
+    margin-top: 3px;
+    position: absolute;
+    margin-left: -24px;
+}
+.header nav span{
+    margin-left: 74px;
+}
+.call_btn{
+    margin-left: 20px;
+    margin-top: -10px;
+    background-color: #48B0EC;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 44px;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.call_btn a img{
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 8px;
+}
+.call_btn a span{
+    margin-left: 0px;
+    font-size: 17px;
+}
+
+
