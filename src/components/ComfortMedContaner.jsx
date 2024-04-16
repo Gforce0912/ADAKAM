@@ -3,6 +3,8 @@ import ArrowBlack from "../assets/arrow-black.svg";
 import ArrowWhite from "../assets/arrow-white.svg";
 import Telegram from "../assets/Telegram.svg";
 import WhatsApp from "../assets/WhatsApp.svg";
+import LongLinkButton from "./LongLinkButton";
+
 
 function ComfortMedContaner() {
     return (
@@ -18,14 +20,8 @@ function ComfortMedContaner() {
             </div>
             <div className="ComfortMed-Links">
                 <div className="ComfortMed-buttonBlock">
-                    <button className="ComfortMed-buttonBlockWhite ComBtn">
-                        <span>Выбрать врача</span>
-                        <img className="ComBtn-img" src={ArrowBlack} alt="" />
-                    </button>   
-                    <button className="ComfortMed-buttonBlockBlack ComBtn"> 
-                        <span>Выбрать услугу</span>
-                        <img className="ComBtn-img" src={ArrowWhite} alt="" />
-                    </button>
+                    <LongLinkButton spanValue="Выбрать врача" class="ComfortMed-buttonBlockWhite ComBtn" img={ArrowWhite} longBtnLink='#'/>
+                    <LongLinkButton spanValue="Выбрать врача" class="ComfortMed-buttonBlockBlack ComBtn" img={ArrowWhite} longBtnLink='#'/>
                 </div>
                 <div className="ComfortMed-Social">
                     <a href="#" className="ComfortMed-Social_Teleg"><img src={Telegram} alt="Telegram" /></a>

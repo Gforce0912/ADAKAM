@@ -1,0 +1,70 @@
+.servicesWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 124px;
+}
+.sevicesApp{
+    display: flex;
+}
+.sevicesApp h1{
+    margin-right: 857px;
+    font-size: 56px;
+    font-weight: 400;
+}
+.vuewBtn{
+    padding-right: 17px;
+    width: 266px;
+    height: 55px;
+    border-radius: 8px;
+    border: solid 1px #E8E8E9;
+    cursor: pointer;
+    font-size: 19px;
+}
+.vuewAllServices_btn{
+    background-color: #ffffff16;
+    color: #000000;
+    
+}
+
+.ServicesLink{
+    color: black;
+}
+.ServicesLink img{
+    margin-left: 30px;
+    position: absolute;
+    margin-left: 10px;
+}
+.servicesCards_block1{
+    display: flex;
+    justify-content: center;
+}
+.servicesCards_block2{
+    display: flex;
+    justify-content: center;
+}
+.servicesCradsTitle{
+    display: flex;
+}
+.servicesCardsBtn{
+    border-radius: 50% ;
+    width: 44px;
+    height: 44px;
+    border: solid 1px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.servicesCardsBtn img{
+    margin-top: 7px;
+}
+.Card{
+    margin-right: 12px;
+}
+.Card ul li{
+    list-style-type:  none;
+}
+.servicesCardsLink{
+    
+}

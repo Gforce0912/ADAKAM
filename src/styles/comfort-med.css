@@ -5,7 +5,7 @@
     line-height: 109.25px;
     letter-spacing: 0.01em;
     text-align: left;
-    margin-right: 350px;
+    margin-right: 400px;
     font-family: "Poppins", sans-serif;
 }
 .ComfortMed-app{
@@ -36,16 +36,16 @@
     cursor: pointer;
     font-size: 19px;
 }
+.ComfortMed-buttonBlockWhite{
+    background-color: #ffffff16;
+    color: #fff;
+}
 .ComfortMed-buttonBlockBlack{
     background-color: #ffffff16;
     color: #fff;
     margin-left: 12px;
 }
-/* .ComfortMed-buttonBlockWhite:hover ~ .ComfortMed-buttonBlockWhite img:hover{
-    background-color: #48B0EC;
-    color: #fff;
-    fill: #fff;
-} */
+
 .ComBtn img{
     margin-left: 8px;
     position: absolute;

@@ -1,0 +1,99 @@
+.FullCheck-App{
+    margin-top: 50px;
+    display: flex;
+}
+.FullCheck-App h1{
+    font-size: 39px;
+    font-weight: 400;
+    padding-top: 32px;
+}
+.FullCheck-App p{
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.Discount-sed{
+    background-color: #EDF7FD; 
+    width: 872px;
+    height: 310px;  
+    border-radius: 30px;
+}
+.Discount-sed h1, .Discount-sed p{
+    margin-left: 32px;
+}
+.FullCheckup-wrap{
+    width: 100%;
+    background-color: #fff;
+    margin-top: 90px;
+    border-radius: 30px 30px 0px 0px ;
+    display: flex;
+    justify-content: center;
+}
+.Discount_btn{
+    border-radius: 50% ;
+    width: 55px;
+    height: 55px;
+    border: solid 1px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 32px;
+    margin-top: 17px;
+}
+.Discount_btn2{
+    border-radius: 50% ;
+    width: 55px;
+    height: 55px;
+    border: solid 1px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-left: 32px;
+    margin-top: 65px;
+}
+.Discount_btn a img, .Discount_btn2 a img{
+    position: absolute;
+    margin-top: 18px;
+    margin-left: -10px;
+}
+.Discount_btn a, .Discount_btn2 a{
+    width: 55px;
+    height: 55px;
+}
+
+.FullCheckBack{
+    position: absolute;
+    width: 415px;
+    height: 310px;
+    margin-left: 455px;
+    margin-top: -310px;
+}
+.FullCheckSaleIcon{
+    position: absolute;
+    margin-top: -135px;
+    margin-left: 700px;
+    z-index: 2;
+}
+
+.full_check h1, .full_check p{
+    margin-left: 32px;
+}
+.full_check{
+    background-color: #EDF7FD;
+    width: 480px;
+    height: 310px;  
+    border-radius: 30px;
+    margin-left: 12px;
+}
+
+.gradient{
+    position: absolute;
+    margin-left: 250px;
+    width: 250px;
+    height: 310px;
+    background: linear-gradient(to right, #edf7fd8e, #fff);
+    box-shadow: -20px 0 30px 30px #edf7fd8e;
+}

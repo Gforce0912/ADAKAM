@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import ComfortMedContaner from "./components/ComfortMedContaner";
 import FullCheckup from "./components/FullCheckup";
+import Services from "./components/Services";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header/>
       <ComfortMedContaner/>
       <FullCheckup/>
+      <Services/>
     </div>
   );
 }
