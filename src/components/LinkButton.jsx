@@ -5,8 +5,9 @@ import ArrowWhite from "../assets/arrow-white.svg";
 const LinkButton = (props) => {
     return(
         <button className={props.class}>
-            <a href="#">
-                <img src={ArrowBlack} alt="" />
+            <a href="#" id="arrow">
+                <img src={ArrowBlack} alt="" className="arrowBlackHover1 arrowBlackHover3"/>
+                <img src={ArrowWhite} alt="" className="arrowWhiteHover1 arrowWhiteHover2"/>
             </a>
         </button>
     )

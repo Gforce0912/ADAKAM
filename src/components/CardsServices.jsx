@@ -4,10 +4,10 @@ import LinkButton from "./LinkButton";
 
 function CardsServices(props) {
     return (
-        <div className="Card">
-            <div className="servicesCradsTitle">
+        <div className={props.className}>
+            <div className={props.class}>
                 <h1>{props.title}</h1>
-                <LinkButton class="servicesCardsBtn" href='#' linkClass='servicesCardsLink'/>
+                <LinkButton class={props.btnName} href='#' linkClass='servicesCardsLink'/>
             </div>
             <ul>
                 <li>{props.li1}</li>

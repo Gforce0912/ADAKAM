@@ -5,15 +5,19 @@
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
-.app{
+button{
+    background: none;
+    
+}
+button:focus {border: none;}
+input:focus {outline: none;}
+.App{
     overflow-x: hidden;
-    display: flex;
-    justify-content: center;
+    color: #353536;
 }
 a{
     text-decoration: none;
     color: #fff;
-    
 }
 
 .back-img{
@@ -27,4 +31,58 @@ a{
     margin-top: -35px ;
 }
 
+.longBtnHover{
+    transition: all 0.1s;
+}
+.longBtnHover:hover{
+    background: #48B0EC;
+}
 
+.longBtnHover:hover .ServicesLink {
+    color: #fff;
+}
+.longBtnHover:hover .longImg2{
+    visibility: visible;
+}
+.longBtnHover:hover .longImg1{
+    visibility: hidden;
+}
+.ServicesLink{
+    transition: all 0.1s;
+}
+.longImg2
+{
+    visibility: hidden;
+    z-index: 5;
+}
+.longBtnHover2{
+    transition: all 0.1s;
+}
+.longBtnHover2:hover .longBtnLink{
+    color: black;
+}
+.longBtnHover2:hover{
+    background-color: #fff;
+}
+.longBtnHover2:hover .newsBtn a{
+    color: #fff;
+}
+.newsBtn .longImg2{
+    position: absolute;
+    margin-left: 0px;
+    margin-top: 1px;
+
+}
+.newsBtn .longImg1{
+    position: absolute;
+    margin-top: 1px;
+}
+.newsBtn a{
+    color: #fff;
+}
+.longBtnHover2:hover .longImg2{
+    visibility: visible;
+}
+.longBtnHover2:hover .longImg1{
+    visibility: hidden;
+}

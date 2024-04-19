@@ -1,3 +1,4 @@
+
 .servicesWrapper{
     display: flex;
     justify-content: center;
@@ -6,9 +7,10 @@
 }
 .sevicesApp{
     display: flex;
+    margin-left: -0px;
 }
 .sevicesApp h1{
-    margin-right: 857px;
+    margin-right: 890px;
     font-size: 56px;
     font-weight: 400;
 }
@@ -59,12 +61,118 @@
 .servicesCardsBtn img{
     margin-top: 7px;
 }
+ul li{
+    list-style-type:  none;
+}
+.servicesCards{
+    margin-top: 32px;
+}
+.serCards{
+    display: flex;
+    margin-right: 12px;
+    width: 395px;
+    height: 260px;
+}
 .Card{
     margin-right: 12px;
 }
-.Card ul li{
-    list-style-type:  none;
-}
-.servicesCardsLink{
+.serCard1, .serCard3{
+    background:  #F6EDE8;
+    height: 255px;
+    border-radius: 30px;
     
+}
+.serCard2{
+    background: #EEF8EF;
+    border-radius: 30px;
+
+}
+.serCards{
+    margin: 24px;
+}
+.Card ul{
+    margin-top: -200px;
+    margin-left: 24px;
+    line-height: 30px;
+}
+
+.servicesCardsBtn{
+    margin-left: 60px;
+    border: solid 1px #E8E8E9;
+}
+
+.Card h1{
+    font-size: 39px;
+    font-weight: 400;
+}
+.Card ul li{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.btn2{
+    margin-left: 70px;
+}
+.btn3{
+    margin-left: 95px;
+}
+
+
+.serCardsBlock2{
+    display: flex;
+}
+.serCard4{
+    background: #EAF3F3;
+    margin-right: 12px;
+}
+.serCard5{
+    background: #F5F4E7;
+}
+.CardBlock2 h1{
+    margin-right: 890px;
+    font-size: 56px;
+    font-weight: 400;
+}
+.CardBlock2 h1{
+    margin-right: 890px;
+    font-size: 39px;
+    font-weight: 400;
+}
+.CardBlock2 ul li{
+   font-size: 24px;
+}
+.CardBlock2 ul{
+    margin-top: 71px;
+}
+.CardBlock2{
+    padding-left: 24px;
+    padding-top: 24px;
+    width: 670px;
+    height: 260px;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-top: 12px;
+}
+.servicesCardsBtn{
+    z-index: 5;
+}
+.btn4{
+    margin-left: -400px;
+}
+.btn5{
+    margin-left: -520px;
+}
+
+.servicesCardsBtn:hover{
+    background-color: #48B0EC;
+    border: none;
+}
+.servicesCardsBtn:hover .arrowBlackHover1{
+    visibility: hidden;
+}
+.servicesCardsBtn:hover .arrowWhiteHover1{
+    visibility: visible;
+}
+.arrowWhiteHover2{
+    margin-left: -20px;
 }

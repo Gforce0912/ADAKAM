@@ -1,0 +1,122 @@
+.doctorsSlide, .content-doctors{
+    margin-right: 12px;
+    margin-top: 144px;
+}
+.doctorsSlide{
+    margin-right: 155px;
+}
+.doctorsApp{
+    display: flex;
+    justify-content: center;
+}
+
+.content-doctors{
+    display: flex;
+}
+.dr2{
+    margin-left: 12px;
+}
+.content_text h1{
+    font-size: 46px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.content_text p{
+    font-size: 24px;
+    color:#787879;
+}
+
+.doctor-cards_title{
+   font-size: 27px;
+   font-weight: 400;
+   max-width: 280px;
+}
+.doctor-cards_p{
+    margin-top: 4px;
+   font-size: 24px;
+   font-weight: 400;
+   color: #8E8E8F;
+}
+
+.sliderBtn1, .sliderBtn2{
+    border: none;
+    font-size: 25px;
+}
+.sliderBtn2{
+    color:#1E1E20 ;
+}
+.sliderBtn1{
+    color:#1e1e208e ;
+}
+.sliderBtns{
+    display: flex;
+}
+
+.sliderBtn1{
+    margin-top: 32px;
+    padding-top: 5px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sliderBtn2{
+    border: solid 1px #E8E8E9;
+    border-radius: 50%;
+    margin-top: 32px;
+    margin-left: 12px;
+    padding-top: 5px;
+    cursor: pointer;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vuewAllServices_btnDr{
+    margin-top: 265px;
+}
+
+.drSlide{
+    margin-left: 40px;
+}
+
+
+.slick-list
+{
+    width: 600px;
+    border-radius: 10px;
+}
+.slick-prev::before {
+    content: url(../assets//left.svg);
+}
+.slick-prev{
+    background: none;
+    position: absolute;
+    margin-left: -716px;
+}
+.slick-next{
+    background: none;
+    position: unset;
+    margin-left: -700px;
+    margin-top: -255px;
+    width: 55px;
+    height: 55px;
+}
+button.slick-arrow.slick-prev {
+    margin-top: 85px;
+}
+
+.slick-next::before {
+    content: url(../assets//right.svg);
+}
+.slick-dots li{
+    display: none;
+}
+.Slider1{
+    margin-left: 100px;
+}
+
+
+

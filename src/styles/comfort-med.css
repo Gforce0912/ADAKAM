@@ -12,6 +12,7 @@
     display:flex;
     justify-content: center;
     margin-top: 282px;
+    z-index: 2;
 }
 .ComfortMedContaner-wrap p{
     font-weight: 400;

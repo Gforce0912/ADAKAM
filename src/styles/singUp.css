@@ -1,0 +1,51 @@
+.SignUpWrap{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+.singUpApp{
+    display: flex;
+}
+.SingUpBack{
+    background: url(../assets/SingUPBack.png);
+    width: 648px;
+    height: 451px;
+}
+
+.SingUp{
+    width: 648px;
+    height: 451px;
+    margin-right: 54px;
+}
+
+.SignWrap{
+    display: grid;
+    width: 648px;
+}
+.SingUp input{
+    background-color: #F4F4F4;
+    padding-left: 24px;
+    color:#A5A5A6;
+}
+.SingUp input, .SingUp a button{
+    height: 71px;
+    border: none;
+    border-radius: 12px;
+    margin-top: 12px;
+    font-size: 19px;
+}
+
+.SignUpWrap a button{
+    background-color:#48B0EC;
+    color: #fff;
+    width: 648px;
+}
+.SignWrap button {
+    cursor: pointer;
+}
+.SingUp h2{
+    width: 700px;
+    font-size: 33px;
+    color: #A5A5A6;
+}

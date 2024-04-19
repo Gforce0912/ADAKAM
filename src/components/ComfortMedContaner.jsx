@@ -20,8 +20,8 @@ function ComfortMedContaner() {
             </div>
             <div className="ComfortMed-Links">
                 <div className="ComfortMed-buttonBlock">
-                    <LongLinkButton spanValue="Выбрать врача" class="ComfortMed-buttonBlockWhite ComBtn" img={ArrowWhite} longBtnLink='#'/>
-                    <LongLinkButton spanValue="Выбрать врача" class="ComfortMed-buttonBlockBlack ComBtn" img={ArrowWhite} longBtnLink='#'/>
+                    <LongLinkButton spanValue="Выбрать врача" class="ComfortMed-buttonBlockWhite ComBtn longBtnHover2" img={ArrowWhite} img2={ArrowBlack} longBtnLink='#' Linkclass="longBtnLink"/>
+                    <LongLinkButton spanValue="Выбрать врача" class="ComfortMed-buttonBlockBlack ComBtn longBtnHover2" img={ArrowWhite} img2={ArrowBlack} longBtnLink='#' Linkclass="longBtnLink"/>
                 </div>
                 <div className="ComfortMed-Social">
                     <a href="#" className="ComfortMed-Social_Teleg"><img src={Telegram} alt="Telegram" /></a>

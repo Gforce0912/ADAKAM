@@ -1,0 +1,87 @@
+.rev-back{
+    background:#EDF7FD;
+    width: 100%;
+    height: 603px;
+    margin-top: 60px;
+
+}
+.rev-wrapper{
+    background: url(../assets/revBack.svg);
+    width: 100%;
+    height: 603px;
+    display: flex;
+    justify-content: center;
+}
+.rev-header{
+    display: flex;
+    margin-top: 100px;
+}
+.rev-title{
+    margin-right: 1020px;
+}
+.rev-title h2{
+    font-size: 46px;
+    font-weight: 400;
+}
+.rev-stars span{
+    font-size: 25px;
+    font-weight: 500;
+}
+.rev-star{
+    display: flex;
+}
+.rev-star svg{
+    margin-right: -10px;
+}
+
+.rev-stars{
+    margin-top: 18px;
+}
+
+.revData1{
+    display: flex;
+}
+.user{
+    display: flex;
+}
+
+.revew1{
+    width: 613px;
+    height: 287px;
+    background: #fff;
+    border-radius: 10px;
+    padding-top: 26px;
+    padding-left: 26px;
+}
+.revStars{
+    display: flex;
+    margin-left:160px;
+}
+.userData{
+    margin-left: 12px;
+}
+.starRating p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 12px;
+}
+.rev-content{
+    max-width: 560px;
+    font-size: 19px;
+    margin-top: 84px;
+}
+.rev-content p{
+    font-weight: 500;
+}
+.revew1{
+    margin-top: -55px;
+}
+.userData h3{
+    font-size: 19px;
+    font-weight: 500;
+}
+.userData p{
+    font-size: 17px;
+    font-weight: 400;
+    color:#787879;
+}
